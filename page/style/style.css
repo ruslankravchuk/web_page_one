@@ -1,0 +1,51 @@
+.title_1 {
+	background-color: green;
+	text-align: center;
+	position: sticky; 
+	margin: auto;
+}
+.container-fluid {
+	background-color: red;
+	padding: 1%;	
+}	
+.Bat   {
+	border: solid 1px black;
+	text-align: center;
+}
+.Rota   {
+	border: solid 1px black;
+	text-align: center;
+}
+.Vsvod   {
+	border: solid 1px black;
+	text-align: center;
+}
+.clearfix {
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10;
+	margin-left: 189px;
+}
+ul.hr li {
+	display: inline; /* Отображать как строчный элемент */
+	margin-right: 100px; /* Отступ слева */
+	border: 1px solid #000; /* Рамка вокруг текста */
+	padding: 3px; /* Поля вокруг текста */
+	align-content: center;
+
+}
+.form_top {
+	border: solid 1px black;
+	text-align: center;
+	display: inline-grid;
+	position: relative;
+	left: 36%;
+}
+.button_1 {
+	margin: 10px 10px 10px 147px;
+	display: block;
+
+
+}
+
+.

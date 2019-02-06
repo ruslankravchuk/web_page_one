@@ -1,0 +1,322 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid 
+
+body input:required:valid,
+body textarea:required:valid 
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+
+table {
+	border-collapse: collapse;
+	margin: 30px 20px 20px 30px;
+	font-size: 20px;
+}
+td {
+	border: 1px solid black;
+	width: 400px;
+	text-align: center;
+	background-color: green;
+
+}
+
+.red {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+}
+
+//  .top_header {
+
+	// position: fixed;
+
+	//  }
+
+	.header_topline {
+		padding: 0px 10px 0px 10px;
+
+	}
+
+	#grey_2 {
+		display: none;
+
+	}
+	.grey_1 {
+		background-color: #43484C;
+		padding: 10px 10px 10px 19px;
+		color: #D9131B;
+
+	}
+	.telef {
+		margin:  20px 10px 25px 700px;
+		font-size: 16px
+
+	}
+
+	.simbol {
+		margin:  -50px 3px 10px 950px;
+		font-size: 16px;
+		float: left;
+
+
+	}
+
+	.main_meny {
+
+		margin: 0px 5px -10px -4px;;
+		background-color: #EA8B02;
+
+
+	}
+
+	.main_meny ul {
+
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-transform: uppercase;
+		font-family: "RobotoRegular";
+		// position: fixed;
+	}
+
+	.main_meny ul li {
+
+		display: inline-block;
+		margin: 10px
+
+	}
+
+	.main_meny a {
+
+		color: #775757;
+		display: block;
+		padding: 15px 10px 15px 10px;
+
+	}
+
+	.main_meny li :hover  {
+
+		color: #D9131B;
+		background-color: rgba(205, 207, 222, .3);
+		// padding: 10px 5px 10px 9px ;
+		border-radius: 3em;
+		-webkit-transition-timing-function: linear;
+		-webkit-transition-duration: 1s;
+
+	}
+	.logo {
+
+		background-color: #EA8B02;
+		color: #D9131B;
+		font-size: 45px;
+		float: right;
+		margin: -56px 67px 0px 0px; 
+		height: 0px;
+	}
+
+	.mobile_button {
+
+		background-color: transparent;
+		border: medium none;
+		font-size: 26px;
+
+	}
+
+	.slider_container img {
+
+		max-width: 100%;
+
+	}
+
+	.slider_container {
+
+		position: relative;
+
+	}
+
+
+	.next_button, .next_button_1,  .prev_button, .prev_button_1 {
+
+		font-size: 57px;
+		position: absolute;
+		z-index: 10;
+		cursor: pointer;
+		top: 30%;
+		background-color: rgba(255, 255, 255, .3);
+		padding: 0 30px;
+		border-radius: 10em;
+
+	}
+
+	.next_button, .next_button_1 {
+
+		right: 20px;
+	}
+
+	.prev_button, .prev_button_1 {
+
+		left: 20px;
+	}
+
+	.map  {
+		margin: 20px 10px 20px 0px;
+
+
+	}
+
+	.plan_1 {
+
+		margin: 55px 10px 20px 16px;
+	}
+
+	.plan_1 img {
+
+		max-width: 600px;
+	}
+
+	.button, .like_botom {
+		font-size: 34px;
+		float: center;
+		margin: 20px 10px 0px 440px;
+		padding: 10px 10px;
+		font-family: "NautilusPompiliusRegular";
+		text-align: center;
+		outline: none;
+	}
+
+	.like_botom {
+		font-size: 34px;
+		    margin: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+		text-align: center;
+	}
+	
+
+
+	.button_s {
+		font-size: 22px;
+		display: block;
+		margin: 13px 10px 20px 113px;
+		padding: 10px 10px;
+		font-family: "NautilusPompiliusRegular";
+		text-align: center; 
+		border-radius: 10em;
+
+
+	}
+
+	.news {
+		font-size: 34px;
+		float: left;
+		// margin: 10px 10px 10px 0px;
+		padding: 10px 10px;
+		font-family: "NautilusPompiliusRegular";
+
+	}
+
+
+	.button:hover {
+		background-color: rgba(255, 255, 255, .1);
+		padding: 0 5px;
+		border-radius: 10em;
+		color: #D9131B;
+
+	}
+
+	.button_s:hover {
+		background-color: #008040;
+		border-radius: 10em;
+		color: #B88102;
+
+	}
+
+	.button_s .button:active: {
+
+		background-color: #457124;
+		color: #F2D781;
+	}
+	.hidden {
+
+		display: none;
+		// margin: 10px 40px 10px 10px;
+
+
+
+
+	}
+
+	.pop_form input {
+
+		display: inline;
+		width: 20%;
+		margin: 20px 0px 0px 21px;
+		line-height: 34px;
+		background-color: #CBCDDC;
+	}
+
+	.form_div {
+
+		padding-left: 393px;
+	}
+
+	.form_div_1 {
+
+		align-content: center;
+	}
+
+	.pop_form .button  {
+		font-size: 34px;
+		float: left;
+		margin: 20px 10px 20px 30px;
+		padding: 0px 0px 10px 0px;
+		border-radius: 10em;
+		font-family: "NautilusPompiliusRegular";
+		text-align: center;
+	}
+
+	.pop_form h3 {
+
+		margin: 10px 10px -5px 17px;
+		/*font-family: "NautilusPompiliusRegular";*/
+		text-align: center;
+		font-size: 36px;
+	}
+
+	.plan_1 img {
+
+		max-width: 544px;
+	}
+
+	// .in_meny {
+
+		// fixed: 0px 0px 0px 0px ;
+		// }
+
+ /*#login {
+
+ 	width: 30px;
+
+ }*/
